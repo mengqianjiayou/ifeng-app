@@ -1,0 +1,219 @@
+html{
+    font-size: 100px;
+}
+header{
+    height:.37rem;
+    border-bottom:1px solid #e3e3e3;
+    padding:.21rem 0;
+}
+header .i-logo{
+    width:1.95rem;
+    height:.37rem;
+    margin:0 auto;
+}
+header .i-logo img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+/*nav*/
+nav{
+    height:.8rem;
+    line-height:.8rem;
+    margin-left:-.2rem;
+    background: #f7f7f7;
+}
+nav .i-link{
+    float:left;
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    font-size: .36rem;
+    color:#727272;
+    margin-left:.5rem;
+}
+nav .i-link.cur{
+    color:#f54343;
+}
+/*focus*/
+.focus img{
+    display: block;
+    width:100%;
+}
+.focus .swiper-container-horizontal > .swiper-pagination-bullets,.focus .swiper-pagination-custom,.focus .swiper-pagination-fraction{
+    left:auto;
+    right:.3rem;
+    text-align: right;
+    font-size: .2rem;
+    color:#fff;
+    bottom:.15rem;
+}
+.focus .swiper-pagination-current{
+    color:#f54343;
+    font-size: .36rem;
+}
+.focus span.text{
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:.8rem;
+    line-height:.8rem;
+    font-size: .32rem;
+    color:#fff;
+    z-index:10;
+    padding-left:.3rem;
+    padding-right:1rem;
+}
+.focus .bg{
+    width:100%;
+    height:.8rem;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,.8),rgba(0,0,0,0));
+    z-index:9;
+}
+/*左图右文*/
+.main .item{
+    display:-webkit-box;
+    padding:.24rem .3rem;
+    -webkit-box-sizing: border-box;
+    border-bottom:1px solid #efefef;
+}
+.item .i-pic{
+    width:1.82rem;
+    height:1.3rem;
+    margin-right:.32rem;
+}
+.item .i-pic img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.item .i-thumb{
+    -webkit-box-flex:1;
+    -webkit-flex:1;
+    -ms-flex:1;
+    flex:1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack:justify;
+}
+.item .i-thumb .i-title{
+    font-size: .36rem;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.item .i-thumb .i-des{
+    display: -webkit-box;
+    -webkit-box-pack:justify;
+    font-size: .22rem;
+    color:#999;
+}
+.item .i-thumb .i-lable{
+    color:#f54343;
+    border-radius: 3px;
+    padding:0 .05rem;
+    border:1px solid #f54343;
+}
+/*三小图*/
+.main .itemPics{
+    padding:.24rem .3rem;
+    border-bottom:1px solid #efefef;
+}
+.itemPics .i-title{
+    font-size: .36rem;
+    width:100%;
+   /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.itemPics .i-title a{
+    color:#1a1a1a;
+}
+.itemPics .pics{
+    width:100%;
+    margin-top:.2rem;
+    margin-left:-.09rem;
+    margin-bottom:.24rem;
+    font-size: 0;
+}
+.itemPics .pics img{
+    width:33.33%;
+   padding-left:.09rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.itemPics .i-des{
+    display: -webkit-box;
+    -webkit-box-pack:justify ;
+    font-size: .22rem;
+    color:#999
+}
+.itemPics .i-des .i-info{
+    display: -webkit-box;
+}
+.itemPics .i-des .i-icon,.item .i-icon{
+    display: inline-block;
+    width:.24rem;
+    height:.3rem;
+    background: url("../images/spirit.png") no-repeat;
+    background-size: 2.87rem 2.02rem;
+    background-position: -1.58rem 0;
+    vertical-align: middle;
+}
+.itemPics .i-des .i-soure{
+    margin-right:.2rem;
+}
+/*纯文字*/
+.itemPics.itemTxt .i-title{
+    margin-bottom:.7rem;
+}
+/*大图*/
+.bigPics{
+    margin:.2rem 0;
+    position: relative;
+}
+/*.bigPics a{*/
+    /*display: block;*/
+    /*width:100%;*/
+    /*height:100%;*/
+/*}*/
+.bigPics img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.bigPics .playbg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.2);
+}
+.bigPics .playicon{
+    width:1.1rem;
+    height:1.1rem;
+    position: absolute;
+    background: url("../images/play.png") no-repeat;
+    background-size: cover;
+    left:0;
+    right:0;
+    bottom:1.39rem;
+    margin:auto;
+}
+.bigPics .playtime{
+    position: absolute;
+    left:0;
+    right:0;
+    text-align: center;
+    margin:auto;
+    bottom:1.02rem;
+    color:#fff;
+    font-size: .22rem;
+}
